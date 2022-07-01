@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: gray;
+}
+
+h1 {
+    color: purple;
+}
+
+div {
+    width: 400px;
+    border: 0 solid #000;
+    height: 100px;
+    width: 394px;
+    padding: 120px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+
+.bio {
+    background-color: #d4d1d1;
+    display: inline-block;
+    float: left;
+}
+
+.bio:hover {
+    background-color: rgb(0, 255, 55);
+    transition: 2px;
+}
+
+.photo {
+    background-color: #0061a8;
+    display: inline-block;
+    float: right;
+}
+
+.photo:hover {
+    background-color: rgb(0, 60, 255);
+    transition: 2px;
+}
+
+.education {
+    background-color: #406882;
+    left: 0;
+    right: 0;
+    clear: both;
+}
+
+.education:hover {
+    background-color: rgb(0, 255, 76);
+    transition: 2px;
+}
+
+.hobbies {
+    background-color: #d58ad6;
+    display: inline-block;
+    float: left;
+}
+
+.hobbies:hover {
+    background-color: rgb(255, 0, 200);
+    transition: 2px;
+}
+
+.contact {
+    background-color: #bd4c13;
+    display: inline-block;
+    float: right;
+}
+
+.contact:hover {
+    background-color: #ff0000;
+    transition: 2px;
+}
